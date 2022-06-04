@@ -4,9 +4,9 @@ import { ImXing } from "react-icons/im";
 
 const HeaderSocials = () => {
   return (
-    <div className="header__socials">
+    <div className="header__socials  animate__animated animate__bounceInDown">
       <a
-        href="https://www.linkedin.com/Nithinrajvr"
+        href="https://www.linkedin.com/in/nithinrajvr7"
         target="_blank"
         rel="noreferrer"
       >
@@ -27,7 +27,7 @@ const HeaderSocials = () => {
         <BsTwitter />
       </a>
       <a
-        href="https://www.xing.com/Nithinrajvr"
+        href="https://www.xing.com/profile/Nithinraj_VettiyattilRajan"
         target="_blank"
         rel="noreferrer"
       >

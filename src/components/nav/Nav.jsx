@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Language from "../Language-switch/Language";
 import "./nav.css";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
@@ -10,7 +11,7 @@ const Nav = () => {
   return (
     <nav>
       <a
-        href="#"
+        href="#home"
         className={activeNav === "#" ? "active" : ""}
         onClick={() => {
           setActiveNav("#");
@@ -54,6 +55,7 @@ const Nav = () => {
       >
         <VscCallIncoming />
       </a>
+      <Language />
     </nav>
   );
 };
