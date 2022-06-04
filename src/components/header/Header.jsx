@@ -4,7 +4,6 @@ import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
 import ME from "../../assets/personalPhoto.png";
 import { DataContext } from "../../context/Context";
-import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Header = () => {
   const { data } = useContext(DataContext);
