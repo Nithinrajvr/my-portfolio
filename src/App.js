@@ -5,7 +5,7 @@ import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Experience from "./components/experience/Experience";
 import Portfolio from "./components/portfolio/Portfolio";
-import Services from "./components/services/Services";
+// import Services from "./components/services/Services";
 import Footer from "./components/footer/Footer";
 import { DataContext } from "./context/Context";
 import React, { useState, useEffect } from "react";
@@ -19,7 +19,7 @@ const App = () => {
     <Nav />,
     <About />,
     <Experience />,
-    <Services />,
+    // <Services />,
     <Portfolio />,
     <Contact />,
     <Footer />,

@@ -6,7 +6,7 @@ const Language = () => {
   const { language, setLanguage } = useContext(DataContext);
   return (
     <div className="language">
-      <div class="switch">
+      <div className="switch">
         <input
           id="cc-toggle"
           className="check-toggle check-toggle-round-flat"

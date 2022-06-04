@@ -70,7 +70,7 @@ const Portfolio = () => {
             <h3>Weather App</h3>
             <div className="portfolio__item-cta">
               <a
-                href="https://github.com/"
+                href="https://github.com/Nithinrajvr/weather-app"
                 className="btn"
                 target="_blank"
                 rel="noreferrer"
@@ -78,7 +78,7 @@ const Portfolio = () => {
                 Github
               </a>
               <a
-                href="https://github.com/"
+                href="https://nithin-weather-app.netlify.app"
                 className="btn btn-primary"
                 target="_blank"
                 rel="noreferrer"
