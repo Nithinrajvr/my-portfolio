@@ -3,7 +3,7 @@ import Language from "../Language-switch/Language";
 import "./nav.css";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
-import { RiServiceLine } from "react-icons/ri";
+// import { RiServiceLine } from "react-icons/ri";
 import { VscCallIncoming } from "react-icons/vsc";
 
 const Nav = () => {
@@ -37,7 +37,7 @@ const Nav = () => {
       >
         <BiBook />
       </a>
-      <a
+      {/* <a
         href="#services"
         className={activeNav === "services" ? "active" : ""}
         onClick={() => {
@@ -45,7 +45,7 @@ const Nav = () => {
         }}
       >
         <RiServiceLine />
-      </a>
+      </a> */}
       <a
         href="#contact"
         className={activeNav === "contact" ? "active" : ""}
