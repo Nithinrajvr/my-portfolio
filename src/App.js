@@ -13,7 +13,6 @@ import { DataContext } from "./context/Context";
 import React, { useState, useEffect } from "react";
 import { english, german } from "./data/data";
 
-let root = document.documentElement;
 const App = () => {
   const [language, setLanguage] = useState(true);
   const [data, setData] = useState(english);

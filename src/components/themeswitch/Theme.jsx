@@ -36,6 +36,7 @@ const Theme = () => {
     } else {
       themeSetter(light);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [theme]);
   return (
     <div className="theme">
