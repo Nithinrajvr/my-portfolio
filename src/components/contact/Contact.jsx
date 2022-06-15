@@ -52,7 +52,7 @@ const Contact = () => {
               <h4>Email</h4>
               <h5>nithinrajvr7@gmail.com</h5>
               <a
-                href="mailto://nithinrajvr7@gmail.com"
+                href="mailto:nithinrajvr7@gmail.com"
                 target="_blank"
                 rel="noreferrer"
               >
