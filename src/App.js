@@ -5,16 +5,20 @@ import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Experience from "./components/experience/Experience";
 import Portfolio from "./components/portfolio/Portfolio";
+import Theme from "./components/themeswitch/Theme";
+
 // import Services from "./components/services/Services";
 import Footer from "./components/footer/Footer";
 import { DataContext } from "./context/Context";
 import React, { useState, useEffect } from "react";
 import { english, german } from "./data/data";
 
+let root = document.documentElement;
 const App = () => {
   const [language, setLanguage] = useState(true);
   const [data, setData] = useState(english);
   const componentArray = [
+    <Theme />,
     <Header />,
     <Nav />,
     <About />,
@@ -24,6 +28,7 @@ const App = () => {
     <Contact />,
     <Footer />,
   ];
+
   useEffect(() => {
     if (language) {
       setData(english);

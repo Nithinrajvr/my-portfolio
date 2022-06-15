@@ -20,7 +20,7 @@ const HeaderSocials = () => {
         <BsGithub />
       </a>
       <a
-        href="https://www.twitter.com/Nithinrajvr"
+        href="https://www.twitter.com/nitihnraj"
         target="_blank"
         rel="noreferrer"
       >

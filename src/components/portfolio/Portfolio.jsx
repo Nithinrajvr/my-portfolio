@@ -3,6 +3,7 @@ import "./portfolio.css";
 import WeatherImg from "../../assets/weather.jpg";
 import QuizImg from "../../assets/quizimage.jpg";
 import CovidImg from "../../assets/CovidTracker.jpg";
+import Ontology from "../../assets/ontology.JPG";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Portfolio = () => {
@@ -45,7 +46,7 @@ const Portfolio = () => {
             <h3>Covid Tracker</h3>
             <div className="portfolio__item-cta">
               <a
-                href="https://github.com/"
+                href="https://github.com/Nithinrajvr/CovidKarlsruhe"
                 className="btn"
                 target="_blank"
                 rel="noreferrer"
@@ -53,7 +54,7 @@ const Portfolio = () => {
                 Github
               </a>
               <a
-                href="https://github.com/"
+                href="https://nithin-covid-karlsruhe.netlify.app"
                 className="btn btn-primary"
                 target="_blank"
                 rel="noreferrer"
@@ -79,6 +80,31 @@ const Portfolio = () => {
               </a>
               <a
                 href="https://nithin-weather-app.netlify.app"
+                className="btn btn-primary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
+          <article className="portfolio__item">
+            <div className="portfolio__item-image">
+              <img src={Ontology} alt="portfolio" />
+              <div className="filter"></div>
+            </div>
+            <h3>Ontology visualizer</h3>
+            <div className="portfolio__item-cta">
+              <a
+                href="https://github.com/Nithinrajvr/ontology-visualization"
+                className="btn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
+              <a
+                href="https://ontology-visualizer.netlify.app"
                 className="btn btn-primary"
                 target="_blank"
                 rel="noreferrer"
