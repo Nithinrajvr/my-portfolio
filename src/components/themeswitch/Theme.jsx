@@ -42,12 +42,12 @@ const Theme = () => {
     <div className="theme">
       <div className="switch">
         <input
-          id="cc-toggle"
+          id="cc-toggle-theme"
           className="check-toggle check-toggle-round-flat"
           type="checkbox"
         />
         <label
-          htmlFor="cc-toggle"
+          htmlFor="cc-toggle-theme"
           onClick={(e) => {
             setTheme(!theme);
           }}
