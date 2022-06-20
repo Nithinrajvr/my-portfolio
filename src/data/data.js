@@ -19,7 +19,7 @@ export const english = {
     title: "About me",
     secondaryTitle: "Get to know",
     buttonText: "Lets talk",
-    paragraphText: `Highly passionate fronted developer, recently graduated with masters
+    paragraphText: `Highly passionate frontend developer, recently graduated with masters
             in Applied computer science with focus on web development.
             Knowledgeable in user interface, testing, and debugging processes.
             Bringing forth expertise in design, development, testing and
@@ -126,7 +126,7 @@ export const german = {
     title: "Über mich",
     secondaryTitle: "Erfahre mehr",
     buttonText: "Lass uns reden",
-    paragraphText: `Sehr leidenschaftlicher Fronted Developer, der vor
+    paragraphText: `Sehr leidenschaftlicher Frontend Entwickler, der vor
                     kurzem seinen Master in Angewandter Informatik mit Schwerpunkt Webentwicklung 
                     abgeschlossen hat. Kenntnisse in den Bereichen Benutzeroberfläche, Testen und 
                     Fehlersuche. Bringt Fachwissen in Design, Entwicklung, Testen und Wartung von
